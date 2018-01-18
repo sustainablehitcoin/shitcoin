@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik'), url(./fonts/Rubik/Rubik-Light.ttf) format('truetype');
+}
 .App {
   text-align: center;
+  font-family: 'Rubik';
 }
 
 .App-logo {
@@ -9,9 +14,20 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 44px;
+  /* padding: 20px; */
   color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-item-container {
+  width: 100%;
+  display: flex;
+  margin-right: 100px;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
 }
 
 .App-title {
@@ -20,6 +36,10 @@
 
 .App-intro {
   font-size: large;
+}
+
+.nav-item {
+  font-size: 50px;
 }
 
 @keyframes App-logo-spin {
