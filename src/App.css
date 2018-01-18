@@ -15,9 +15,9 @@
 .App-header {
   background-color: #222;
   height: 44px;
-  /* padding: 20px; */
   color: white;
   position: fixed;
+  z-index: 9999;
   width: 100%;
 }
 
