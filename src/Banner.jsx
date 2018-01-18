@@ -4,7 +4,7 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div>
+        <div style={{height: '100%'}}>
         <Particles 
         params={{
             "particles": {
@@ -116,7 +116,7 @@ const Banner = () => {
             },
             "retina_detect": true
           }}
-        style={ {width: '100%', backgroundColor: '#3c2c4a'}} />
+        style={ {width: '100%', height: '100%', backgroundColor: '#3c2c4a'}} />
         <h1 className="title">Sustainable<br/>Humanitarian<br/>Index<br/>Token</h1>
         </div>
   );

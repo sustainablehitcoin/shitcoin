@@ -8,7 +8,6 @@ const NavBar = () => {
                 <NavItem text='Home' url='bla.com'></NavItem>
                 <NavItem text='Whitepaper' url='#'></NavItem>
                 <NavItem text='Team' url='#'></NavItem>
-
            </div>
            </header>
         )

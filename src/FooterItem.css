@@ -1,0 +1,16 @@
+.footer-item {
+    margin: 10px;
+    padding: 3px;
+    font-size: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-item--link a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer-item--link a:hover {
+    color: plum;
+}
