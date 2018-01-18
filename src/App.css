@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik'), url(./fonts/Rubik/Rubik-Light.ttf) format('truetype');
+}
 .App {
   text-align: center;
+  font-family: 'Rubik';
 }
 
 .App-logo {
@@ -10,7 +15,7 @@
 .App-header {
   background-color: #222;
   height: 44px;
-  padding: 20px;
+  /* padding: 20px; */
   color: white;
   position: fixed;
   width: 100%;

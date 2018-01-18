@@ -1,4 +1,7 @@
-@font-face {
-  font-family: 'Rubik';
-  src: local('Rubik'), url(./fonts/Rubik/Rubik-Light.ttf) format('truetype');
+
+.link {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    margin: 20px 10px;
 }
