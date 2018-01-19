@@ -1,0 +1,8 @@
+.timer-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.timer-value {
+    font-size: 50px;
+    font-weight: 700;
+}
