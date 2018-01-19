@@ -44,10 +44,10 @@ class Timer extends React.Component {
         parts[2] = '' + Math.floor( ((elapsed % one_day) % one_hour) / one_minute );
         parts[3] = '' + Math.floor( ( ((elapsed % one_day) % one_hour) % one_minute ) / one_second );
         
-        parts[0] = (parts[0].length == 1) ? '0' + parts[0] : parts[0];
-        parts[1] = (parts[1].length == 1) ? '0' + parts[1] : parts[1];
-        parts[2] = (parts[2].length == 1) ? '0' + parts[2] : parts[2];
-        parts[3] = (parts[3].length == 1) ? '0' + parts[3] : parts[3];
+        parts[0] = (parts[0].length === 1) ? '0' + parts[0] : parts[0];
+        parts[1] = (parts[1].length === 1) ? '0' + parts[1] : parts[1];
+        parts[2] = (parts[2].length === 1) ? '0' + parts[2] : parts[2];
+        parts[3] = (parts[3].length === 1) ? '0' + parts[3] : parts[3];
 
         return parts
     }
