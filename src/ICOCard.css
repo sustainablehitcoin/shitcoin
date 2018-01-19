@@ -1,6 +1,49 @@
+#token-sale {
+    width: 100%;
+    margin: 50px 0;
+}
+.card-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .card-container {
     width: 100%;
     max-width: 937px;
-    display: flex;
+    margin: 0 auto;
+}
+
+.coin-info-section {
+    font-size: 20px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+.card-info {
+    margin: 20px;
+    text-align: left;
+}
+
+.coin-logo {
+    margin: 20px 0;
+}
+
+.coin-info-value {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.card-title {
+    margin: 20px 0;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.coin-info {
+}
+
+.coin-rate {
 }

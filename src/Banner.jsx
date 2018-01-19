@@ -4,7 +4,7 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div style={{height: '100%'}}>
+        <div className="banner-container" style={{height: '100%'}}>
         <Particles 
         params={{
             "particles": {

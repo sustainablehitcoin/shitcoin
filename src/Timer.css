@@ -6,3 +6,8 @@
     font-size: 50px;
     font-weight: 700;
 }
+
+.timer {
+    width: 100%;
+    text-align: left;
+}
