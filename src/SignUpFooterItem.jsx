@@ -1,6 +1,5 @@
 import React from 'react'
 import './FooterItem.css'
-import { setTimeout } from 'timers';
 
 class SignUpFooterItem extends React.Component {
 

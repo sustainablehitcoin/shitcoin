@@ -11,7 +11,7 @@ import github from './icons/github.svg'
 
 const communityItems = [
     <div>
-    <CommunityFooterItem title="GitHub"link="https://github.com/sustainablehitcoin">
+    <CommunityFooterItem title="GitHub" link="https://github.com/sustainablehitcoin">
         <img src={github} alt='github' width='20px' height='20px'/>
     </CommunityFooterItem>
     <CommunityFooterItem title="Reddit">

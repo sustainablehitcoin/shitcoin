@@ -1,5 +1,4 @@
 import React from 'react'
-import CommunityFooterItem from './CommunityFooterItem.jsx'
 import './FooterSection.css'
 const FooterSection = ({title, items}) => {
 
