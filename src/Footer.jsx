@@ -1,7 +1,8 @@
 import React from 'react'
 import './Footer.css'
 import FooterSection from './FooterSection.jsx'
-import { CommunityFooterItem, SignUpFooterItem }  from './FooterItem';
+import CommunityFooterItem  from './CommunityFooterItem';
+import SignUpFooterItem  from './SignUpFooterItem';
 import reddit from './icons/reddit.png'
 import facebook from './icons/facebook.svg'
 import telegram from './icons/telegram.png'
@@ -29,13 +30,11 @@ const communityItems = [
 ]
 
 const signupItems = [
-    <div>
-    <SignUpFooterItem>
-        <input type="email" />
-        <span style={{marginLeft: '10px'}}>Email address</span>
+    <SignUpFooterItem message="Signing you up for our shitlist 😉">
+        <input type="email" placeholder="Email address"/>
     </SignUpFooterItem>
-    </div>
 ]
+
 const Footer = () => {
 
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import './FooterItem.css'
 
-export const CommunityFooterItem = (props) => {
+const CommunityFooterItem = (props) => {
 
     return (
             <li className="footer-item footer-item--link">
@@ -13,11 +13,4 @@ export const CommunityFooterItem = (props) => {
     )
 }
 
-export const SignUpFooterItem = (props) => {
-    return (
-            <li className="footer-item">
-                {props.children}
-            </li>
-
-    )
-}
+export default CommunityFooterItem
